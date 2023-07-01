@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RP0024" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="55d5703a-00fb-4334-a799-42c2005c6506">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[select '1111111' contractno,
+'111111111' ngaythang,
+'11111111' diachievs ,
+'11111111' dkshevs ,
+'benban' benban,
+'1111111111' stkevs,
+'1111111' daidienevs,
+'1111111111' suqevs,
+'11111111111' diachibb,
+'111111111111' dkshbb,
+'1111111111111111' stkbb,
+'11111111111' daidien,
+'111111111111111' daidienbb,
+'11111111111111' svbuqbb,
+'111111111111111' tentp,
+'1111111111111111' matp,
+'tcph' tcph,
+'loaitp' loaitp,
+'kyhan' kyhan,
+'ngayphathanh' ngayphathanh,
+'ngaydaohan' ngaydaohan ,
+'lxtp' lxtp,
+'menhgia' menhgia,
+'sltp' sltp]]>
+	</queryString>
+	<field name="contractno" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="contractno"/>
+	</field>
+	<field name="ngaythang" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ngaythang"/>
+	</field>
+	<field name="diachievs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="diachievs"/>
+	</field>
+	<field name="dkshevs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="dkshevs"/>
+	</field>
+	<field name="benban" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="benban"/>
+	</field>
+	<field name="stkevs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="stkevs"/>
+	</field>
+	<field name="daidienevs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="daidienevs"/>
+	</field>
+	<field name="suqevs" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="suqevs"/>
+	</field>
+	<field name="diachibb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="diachibb"/>
+	</field>
+	<field name="dkshbb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="dkshbb"/>
+	</field>
+	<field name="stkbb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="stkbb"/>
+	</field>
+	<field name="daidien" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="daidien"/>
+	</field>
+	<field name="daidienbb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="daidienbb"/>
+	</field>
+	<field name="svbuqbb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="svbuqbb"/>
+	</field>
+	<field name="tentp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="tentp"/>
+	</field>
+	<field name="matp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="matp"/>
+	</field>
+	<field name="tcph" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="tcph"/>
+	</field>
+	<field name="loaitp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="loaitp"/>
+	</field>
+	<field name="kyhan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="kyhan"/>
+	</field>
+	<field name="ngayphathanh" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ngayphathanh"/>
+	</field>
+	<field name="ngaydaohan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ngaydaohan"/>
+	</field>
+	<field name="lxtp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="lxtp"/>
+	</field>
+	<field name="menhgia" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="menhgia"/>
+	</field>
+	<field name="sltp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="sltp"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="131" splitType="Stretch">
+			<staticText>
+				<reportElement x="14" y="49" width="538" height="20" uuid="36af9ad4-b5e8-4999-81d1-98bab0079188"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="70" width="538" height="20" uuid="90426f22-3bef-454e-917e-1fa098222ec6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="89" width="538" height="20" uuid="adee4164-aeb1-4b56-b836-73c6374b8eac"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["HỢP ĐỒNG MUA BÁN TRÁI PHIẾU"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="110" width="538" height="20" uuid="81e08e8d-8d68-4bb8-badd-d1d6055cc3dc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số: " + $F{contractno}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="608">
+			<textField>
+				<reportElement x="30" y="172" width="522" height="19" uuid="84f8183b-bdad-45f9-bf03-ae81e0e370c4"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dkshbb}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="260" width="538" height="18" uuid="e081bc4e-f760-431e-9470-cd45be2f5865"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[XÉT RẰNG:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="1" width="538" height="18" uuid="9be568a9-67b0-4cb5-9c5c-7b19c6354d5c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ngaythang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="136" width="522" height="19" uuid="f2326e3e-de9b-4c08-a622-0bf189bc6b25"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{benban}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="303" width="538" height="18" uuid="86d4f0f9-0079-4c35-9172-23ede9975009"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DO VẬY, Các Bên đồng ý thỏa thuận như sau:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="190" width="522" height="19" uuid="00fc92ae-f0bf-4b0b-8801-a54b28750df4"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{stkbb}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="34" width="522" height="15" uuid="88415e8e-80e5-40c0-b18d-32ea0181d83d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diachievs}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="208" width="522" height="19" uuid="8ac79927-f6f4-409d-a222-3e59e0fa7500"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{daidienbb}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="117" width="538" height="18" uuid="16b37dbb-eb9e-4c8a-a98f-5a1705a68177"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Sau đây gọi tắt là                      ); và]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="190" width="10" height="18" uuid="b07792e7-f01a-493b-ace1-34fc3182572e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="48" width="10" height="22" uuid="840d2bc9-fb2d-4d4c-9d3e-34f4be823f09"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="288" width="10" height="18" uuid="a0ec9d52-b347-467f-b0bf-248960768903"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="154" width="10" height="18" uuid="fc53cd06-fe7a-4096-9978-25c7bc44a44d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="318" width="538" height="15" forecolor="#000000" uuid="c15cf8b6-fd53-4567-b651-dab2db2d4660"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 1. ĐỐI TƯỢNG MUA BÁN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="136" width="17" height="18" uuid="18ef91f6-9d8a-4ee2-9cda-38b1297f9b28"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(2)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="154" width="522" height="19" uuid="241ef5cf-1f55-464d-a0f8-ae54e7a7238b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{diachibb}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="172" width="10" height="18" uuid="04d98118-3bcc-4503-9580-d854db197891"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="243" width="538" height="18" uuid="4bf780e5-42b2-4446-aed9-6330fc06f10e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Sau đây gọi tắt là                    )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="34" width="10" height="14" uuid="96b78ef9-1c16-4587-b0cc-12fba60a8c76"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="68" width="10" height="20" uuid="7805a960-6c09-4942-93fa-fbc0e80d35d3"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="287" width="522" height="17" uuid="06bc8921-6736-4d70-b80d-ddffdd805863"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Bên Mua mong muốn mua số Trái Phiếu nói trên từ Bên Bán vào một thời điểm xác định trước.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="273" width="10" height="18" uuid="02838d85-1df3-4fe2-8bfd-a3de8a5e6ae2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="68" width="522" height="18" uuid="b78c19db-5cf5-4170-a0ca-7f01e5151bc9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{stkevs}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="19" width="539" height="15" forecolor="#000000" uuid="94266a5e-914b-4ac8-988f-3fd00d4ee36f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(1)  BÊN MUA: CÔNG TY CỔ PHẦN CHỨNG KHOÁN EVEREST]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="50" width="522" height="18" uuid="960b1a53-ece4-4e62-8ac7-e889cfa818a8"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dkshevs}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="208" width="8" height="18" uuid="8394fff6-b3b6-4c67-84ed-3ae22baa3a76"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="86" width="522" height="18" uuid="81825e50-d41e-4b09-8db3-d562af1c8baa"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{daidienevs}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="273" width="522" height="18" uuid="2ec84215-d7be-4a38-912a-2b1376f83404"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Bên Bán là chủ sở hữu hợp pháp của số Trái Phiếu doanh nghiệp có thông tin quy định tại Điều 2 của Hợp đồng này (                        ) và]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="86" width="8" height="20" uuid="4f1d3ba6-c416-437b-8bb4-178d679cfaf2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="227" width="10" height="18" uuid="9538970f-d6b3-48ad-a4ed-dee2c6e0ddea"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="226" width="522" height="18" uuid="ce4d0692-52eb-4372-a4ba-78d5d627d83a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{svbuqbb}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="583" width="539" height="20" forecolor="#000000" uuid="42ed0c57-2a2f-4030-ae01-b60df8aa1303"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B-THÔNG TIN THANH TOÁN VÀ CHUYỂN GIAO QUYỀN SỞ HỮU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="371" width="538" height="15" forecolor="#000000" uuid="a2574fbd-ade2-44ce-b0e4-31384d611e1f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 2. THÔNG TIN GIAO DỊCH MUA BÁN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="333" width="18" height="18" uuid="652dc268-bb04-4a4f-afaf-a8a365901152"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[1.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="333" width="522" height="29" uuid="13dc569d-1d5f-49d5-9a78-1b732f78086c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Bên Bán đồng ý bán cho Bên Mua và Bên Mua đồng ý mua từ Bên Bán các Trái phiếu như được mô tả tại phần A Điều 2 Hợp đồng này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="31" y="346" width="522" height="33" uuid="82e5eb37-fc3c-44c9-a477-d8335ffb15a5"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Các Bên thống nhất rằng các khoản Lãi Trái phiếu phát sinh từ Trái Phiếu chưa được thanh toán không phải là đối tượng mua bán của Hợp đồng này và được xử lý theo quy định tại Điều 3 Hợp đồng này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="347" width="18" height="18" uuid="e9946c8a-5df1-4b62-84b1-c30cd697ffc5"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[2.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="31" y="468" width="522" height="19" uuid="53ed34f3-45dd-420b-9d50-bfeb894dd9dc"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kyhan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="504" width="522" height="19" uuid="b43d78e4-39c2-4c71-a9d8-2b552642f9e6"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ngaydaohan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="433" width="522" height="19" uuid="9c3747cf-664e-4c92-ad90-f3e00ed38563"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tcph}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="540" width="522" height="19" uuid="19849790-df02-4cff-a6a6-98979e981221"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{menhgia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="417" width="522" height="18" uuid="4f09efd8-0415-4157-9da6-6117a61c57c4"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{matp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="486" width="522" height="19" uuid="6b231156-6b42-4958-8f08-d78137fd73ee"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ngayphathanh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="401" width="522" height="16" uuid="37c48917-8b6a-41e3-b845-94d9ca15c208"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tentp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="522" width="522" height="18" uuid="b3bca383-f49f-44a8-a178-3eb850c694a2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lxtp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="450" width="522" height="19" uuid="d0e98d39-d931-4fed-9758-3a0c4a766169"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{loaitp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="386" width="538" height="15" forecolor="#000000" uuid="5da68318-85f2-4fbe-8012-40de06b458a9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A-THÔNG TIN TRÁI PHIẾU GIAO DỊCH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="401" width="18" height="18" uuid="15c11ebe-1bb0-47ac-b42e-2d373545dfdb"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[1.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="417" width="15" height="18" uuid="3f0e07cb-51e6-485d-b255-8277226a2e90"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[2.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="433" width="18" height="18" uuid="4e8c4ed1-cd11-425c-bf42-1e245f29088e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="451" width="18" height="18" uuid="45242745-bfb2-43f8-a8e9-78bd35ff3e3b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[4.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="468" width="14" height="18" uuid="848fe00a-c41d-4d13-a492-00acd47fd9bd"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="486" width="18" height="18" uuid="3227482f-18f3-4026-aaf7-e69fc667449e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="504" width="18" height="18" uuid="699598dd-c7fd-488b-97a6-682c19730677"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[7.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="522" width="18" height="18" uuid="f6397185-879e-4a62-bd98-bd69d92d3830"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[8.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="540" width="18" height="18" uuid="7a81602a-0cdc-4f22-bdd7-617ad820754c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[9.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="558" width="15" height="18" uuid="3ec3b0d6-2d23-4760-88b2-7bd32ea04dbd"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[10.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="31" y="558" width="522" height="24" uuid="1b8ca0a3-c0a2-4189-8ee3-a723a779ec0d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sltp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="81" y="117" width="68" height="30" uuid="f963847b-83df-494e-96a0-a4112c13d3f8"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA["Bên Mua"]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="102" width="522" height="14" uuid="93791f2b-ef40-4bd0-b3e1-51aede24530c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suqevs}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="102" width="8" height="16" uuid="3ff77811-6d52-44bd-a947-d6fbde2fc6e7"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="82" y="243" width="100" height="30" uuid="fc896b86-6e56-48d1-97e3-e657b4392e7c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[“Bên Bán”]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="273" width="100" height="30" uuid="5d8589ac-929a-4b83-863b-05b5976d4c00"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[“Trái Phiếu”]]></text>
+			</staticText>
+		</band>
+		<band height="727">
+			<staticText>
+				<reportElement x="12" y="458" width="540" height="33" uuid="d6f465e2-6653-4aa8-bec6-1d4634b1dc00"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="8" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Ghi chú: Ngày CGQSH Gia hạn có thể kéo dài đến lần thứ “t”. Nếu tháng nào không có ngày (n) thì Ngày thanh toán sẽ là ngày cuối cùng của tháng đó.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="475" width="546" height="16" forecolor="#000000" uuid="cfa6006b-665b-4c2a-b51c-9b912a100852"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 3. GIÁ MUA BÁN, TIẾN ĐỘ THANH TOÁN, PHƯƠNG THỨC THANH TOÁN, THUẾ VÀ PHÍ CHUYỂN NHƯỢNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="491" width="546" height="48" uuid="e42f3359-e229-4731-b850-a93d3fe04885"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.1  Tổng giá mua bán toàn bộ số Trái phiếu nêu tại Điều 1 Hợp đồng này là Tổng Giá Mua như được quy định tại Điều 2 Hợp đồng này. Bên Mua và Bên Bán đồng ý rằng, Tổng Giá Mua sẽ được điều chỉnh tương ứng trong các trường hợp quy định tại Điều 3.4, 3.5 và 3.6 Hợp đồng này. Trừ các trường hợp quy định tại Điều 3.4 và 3.6, Tổng Giá Mua thực nhận mà Bên bán nhận được theo quy định tại Điều 2 Hợp đồng này là cố định và không thay đổi trong suốt thời hạn của Hợp đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="534" width="546" height="126" uuid="bf097f6e-57cd-4db0-80be-231377b27990"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.2  Bên Mua sẽ giữ lại Khoản thuế chuyển nhựng, Phí chuyển nhượng phát sinh từ Tổng Giá Mua (nếu có) trước khi thanh toán Tổng Giá Mua thực nhận cho Bên Bán. Theo đó, vào (các) Ngày thanh toán được quy ước và số tiền tương ứng cần thanh toán được xác định theo quy định tại Điều 2 Hợp đồng này hoặc các Phụ lục Hợp đồng điều chỉnh (nếu có), Bên Mua có trách nhiệm thanh toán cho Bên Bán thông qua phương thức chuyển khoản vào tài khoản của Bên Bán theo thông tin tài khoản nêu tại phần đầu của Hợp đồng này. Trường hợp Ngày thanh toán trùng ngày nghỉ (thứ 7, chủ nhật), ngày lễ, việc chuyển tiền sẽ được thực hiện vào Ngày làm việc liền kề sau Ngày thanh toán. Phí chuyển tiền (nếu có) do Bên Mua chịu trách nhiệm thanh toán.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="595" width="546" height="25" uuid="3ba1e18e-f45b-421f-a0ef-0109e993704f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.3  Quy định về việc khấu trờ và thanh toán Khoản thuế chuyển nhượng và Phí chuyển nhượng: thực hiện theo Mục III Các Điều khoản chung của giao dịch mua bán Trái phiếu (sau đây gọi tắt là                                               ).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="617" width="546" height="32" uuid="d0e0acba-828a-4d25-bab5-5c302bca9a5e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.4  Trong trường hợp Bên bán có nhu cầu thực hiện chuyển giao quyền sở hữu Trái phiếu vào ngày CGQSH theo yêu cầu theo quy định tại Điều 4.1 Hợp đồng này, Tổng Giá Mua, Tổng Giá Mua Thực Nhận sẽ được các bên thoả thuận lại và thể hiện bằng các Phụ lục Hợp đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="640" width="546" height="70" uuid="358d102e-8c24-4a9a-bc20-ce10d2069b04"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.5  Bên Mua và Bên Bán theo đây thống nhất rằng, trừ trường hợp bất khả kháng, vào Ngày thanh toán cuối cùng Bên Bán sẽ nhận được (tích luỹ) Tổng giá mua thực nhận tương ứng với Ngày CGQSH thực tế theo quy định tại Điều 3.6 của Hợp đồng. Trong trường hợp tại Ngày thanh toán mà Khoaen thuế chuyển nhượng có thay đổi theo quy định của pháp luật, Bên Mua và Bên Bán đồng ý rằng Bên Mua sẽ được hưởng hoặc có trách nhiệm thanh toán phần chênh lệch của Khoản thuế chuyển nhượng; và Tổng Giá Mua sẽ được điều chỉnh tương ứng với phần chênh lệch.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="432" width="36" height="24" uuid="c6bd2487-db75-44eb-aeb4-dd3bbd1f7a87"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt cuối]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="309" width="58" height="22" uuid="8802dd23-61f8-4dfb-b716-b415ea501906"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="331" width="62" height="100" uuid="bfa22952-8180-4123-a3af-c7ffe1550db8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="309" width="38" height="22" uuid="d9c3f3c6-85b7-4500-b721-5ebe7bfa56f7"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="332" width="36" height="100" uuid="4bcc2601-4724-47bc-9ffe-55c732cf7922"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 2-> đợt ...]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="309" width="42" height="22" uuid="8f63c5a1-0f43-4907-9799-d1eede6a0452"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="309" width="36" height="22" uuid="094cfc2e-d8c2-4f94-b410-ffd10f05c8cc"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="310" width="62" height="22" uuid="226ef98e-0720-4588-93a0-6eaa23ec30fc"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="309" width="50" height="22" uuid="80959f25-e3dc-4b4c-802c-2942bb9188f8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="402" y="309" width="72" height="22" uuid="cbafbbd8-1e60-455c-9bea-8936a00d80d4"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="309" width="56" height="22" uuid="97a1d8be-f4ad-434c-855a-ab673122e415"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="277" width="38" height="32" uuid="b69b1454-f3b8-4c06-a25c-a1bc31244e9a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="331" width="38" height="100" uuid="787c8477-c5be-4e9f-9122-544029fa8fa7"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 2-> đợt ...]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="277" width="50" height="32" uuid="fc19b758-9c86-4eda-8304-468539e4d0eb"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Ngày thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="277" width="58" height="32" uuid="5d51ba68-d51c-4fec-9b86-ab28003e4aea"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Giá trị thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="278" width="44" height="178" uuid="285f737b-d736-4a11-aba2-d7e7052c8fa0"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.Tiến độ thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="278" width="36" height="32" uuid="60674348-286d-4ed2-b391-b759c03b02b8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="278" width="56" height="32" uuid="7cd69969-75dd-4175-b164-02cf98877d8f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Ngày thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="278" width="62" height="32" uuid="4e90b91a-6b58-49e7-b554-9e6057a5d4eb"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Giá trị thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="278" width="72" height="32" uuid="aa068c45-bf33-47b1-9c86-8b971f3bff4f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Giá trị thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="278" width="42" height="32" uuid="a9056a42-0111-4a52-a319-5d855f23c0a9"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="402" y="278" width="72" height="32" uuid="768e4d57-29f1-4769-87d1-399a4f512fdd"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Ngày thanh toán]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="310" width="72" height="22" uuid="b35eb2eb-7eef-4fa5-93c9-c78f5ba03838"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="332" width="58" height="100" uuid="1f40f5cd-f7a0-4bc8-85da-95be48af5980"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="332" width="72" height="100" uuid="ffb9e817-2fc7-4144-b025-ff69e0d7cd6e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="331" width="56" height="100" uuid="223819f9-a529-4fd3-adca-d722619be773"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="332" width="42" height="100" uuid="a5b1975e-8a30-4253-8352-a2b498d33007"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt 2-> đợt ...]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="402" y="332" width="72" height="100" uuid="1e0af49e-54c6-4699-901a-658675450fa7"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="332" width="50" height="100" uuid="7c605311-fcaf-468a-b306-ce49bbb13f4a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="432" width="58" height="24" uuid="4ce64fa7-6789-469c-a45e-1b17f5376617"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="432" width="72" height="24" uuid="527baac2-10d4-4c3d-bbc3-78abcd327f04"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="96" y="432" width="56" height="24" uuid="ea87ebf4-2648-4a66-8f85-87935225efad"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="432" width="42" height="24" uuid="c9c12537-ff86-467b-9eef-914ffb063d2e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt cuối]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="402" y="432" width="72" height="24" uuid="1a512acf-2497-42bf-937e-a124874fe977"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="432" width="38" height="24" uuid="850f3648-f323-4497-b461-d73aeecc446c"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Đợt cuối]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="432" width="50" height="24" uuid="ce1320f8-8d85-4b3c-b2f3-63104937d6e8"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="432" width="62" height="24" uuid="d90e9fef-f1e9-4ebf-8e42-e5f0109ded96"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="187" width="44" height="44" uuid="98da9037-bfba-40c1-a380-a8d0179e7f0f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[4.Phí chuyển nhượng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="231" width="154" height="46" uuid="a5e69c3a-fbdd-450c-b094-5744b486f532"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="231" width="146" height="46" uuid="019dcced-b77a-4fc5-89be-2cdbf9d420cf"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="231" width="186" height="46" uuid="153c82a7-f3b9-45bf-9e13-cf0bd0249b54"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="28" width="44" height="40" uuid="29ad0af4-4cb2-4a55-b9bd-036758ff0d1b"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="28" width="486" height="40" uuid="5f695361-4776-41bc-be7e-22b3cc7dd90f"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày CGQSH Thỏa thuận]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="68" width="44" height="40" uuid="be3ac320-fc11-4b81-81ba-aa77147b4da5"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[1. Chi tiêu thanh toán tương ứng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="68" width="154" height="40" uuid="43b2c0cb-387e-41d8-9412-9ae106f5ab24"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày CGQSH ban đầu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="108" width="44" height="30" uuid="e7da293e-0af8-4909-9630-f698647c62a0"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[2.Tổng giá mua]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="108" width="154" height="30" uuid="56ec9fc1-338f-4c8b-be86-4a824f16bc9a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="108" width="146" height="30" uuid="7b41bf11-ba95-4c01-b209-a4c565f69342"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="108" width="186" height="30" uuid="5a679ea9-88d3-4a0b-b3e2-d966441f1315"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="68" width="146" height="40" uuid="af5723c3-19b4-474a-8934-fd1feb86f12e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày CGQSH Gia hạn 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="68" width="186" height="40" uuid="be152319-4deb-4cc2-b1e8-91ac76fc2c64"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày CGQSH Gia hạn 2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="138" width="44" height="50" uuid="35adeafa-66ab-4610-a12f-30c48cc3ce0e"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.Khoản thuế chuyển nhượng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="138" width="154" height="50" uuid="98ea2727-1f29-40cc-bdbb-3019f4beb1e6"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="138" width="146" height="50" uuid="3fd72f3f-3106-4753-83f7-1d6daba28ff3"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="138" width="186" height="50" uuid="431ca57d-4011-46f7-9ba6-23b9b90dfab1"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="214" y="188" width="146" height="44" uuid="5e4da772-505f-4495-8a89-aae69931248b"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="188" width="186" height="44" uuid="196033d3-2938-42b0-811a-cc5ce59b56c4"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="188" width="154" height="44" uuid="98fe9886-e5e4-4af3-8e2f-40ac2b0a9d92"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="232" width="44" height="46" uuid="152412fe-ce0a-4cd4-9acd-1ece3225f249"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.Tổng giá mua thực nhận]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="606" width="178" height="30" uuid="6fe88fcb-733a-4eb5-bff7-40c88778ac35"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[“Các Điều Khoản Chung”]]></text>
+			</staticText>
+		</band>
+		<band height="737">
+			<staticText>
+				<reportElement x="31" y="131" width="18" height="22" uuid="ba2688e3-3f44-46fb-9dc8-235fb1d45652"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="31" y="113" width="19" height="18" uuid="73b16386-01f2-4ca8-baef-b56eef05b59b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="30" width="546" height="60" uuid="ec307c9b-e218-41e6-bfa1-171b63b43ee2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.6  Các Bên đồng ý rằng Tổng Giá Mua, Tổng Giá Mua Thực Nhận, Tiến độ thanh toán sẽ được điều chỉnh tương ứng với Ngày CGQSH thực tế tuỳ từng trường hợp theo quy định tại Điều 4 của Hợp đồng. Trường hợp Tổng Giá Mua, Tổng Giá Mua Thực Nhận và các số liệu liên quan tới Hợp đồng chưa được ghi nhận rõ ràng trên Hợp đồng này thì Bên Mua sẽ tính toán các số liệu này theo các nguyên tắc quy định tại Hợp đồng này và thông báo cho Bên Bán. Bên Bán đồng ý rằng trừ trường hợp có sai sót rõ ràng về mặt số liệu tính toán, số liệu do Bên Mua tính toán sẽ là số liệu cuối cùng được sử dụng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="82" width="546" height="40" uuid="b5343da9-a879-443d-8c08-8100b40d1e41"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[3.7  Bên Bán và Bên Mua tại đây thống nhất rằng, Tổng Giá Mua quy định tại Điều 3 này không bao gồm Lãi Trái Phiếu. Kể từ ngày Hợp đồng này có hiệu lực, toàn bộ Lãi Trái phiếu sẽ thuộc về Bên Mua (có nghĩa là Bên Mua được hưởng lãi trái phiếu không phụ thuộc vào thời điểm chuyển giao quyền sở hữu Trái phiếu), theo đó:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="167" width="546" height="20" forecolor="#000000" uuid="4a071ed0-f2eb-4fcb-926c-f0e9994c04e8"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 4. CHUYỂN GIAO QUYỀN SỞ HỮU TRÁI PHIẾU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="184" width="546" height="38" uuid="b029fe5d-f8e9-4eae-8b67-f0bb9ae42443"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[4.1  Bên Bán sẽ thực hiện việc chuyển giao quyền sở hữu Trái phiếu đối với số Trái phiếu nếu tại Điều 1 Hợp đồng này cho Bên Mua hoặc cho bên thứ ba do Bên Mua chỉ định vào Ngày CGQSH thực tế quy định tại Điều 4 này sau khi Bên Bán nhận được toàn bộ Tổng Giá Mua thực nhận được tính toán theo quy định tại Điều 3 Hợp đồng, không Bên nào được từ chối việc chuyển giao quyền sở hữu Trái phiếu trong bất kỳ trường hợp nào.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="219" width="524" height="86" uuid="696efc08-372a-41ef-8830-4481bd1e7706"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Vào Ngày CGQSH ban đầu quy định tại Điều 2 Hợp đồng này, Bên Mua và Bên Bán sẽ thực hiện và hoàn thành mọi thủ tục chuyển nhượng quyền sở hữu Trái phiếu tại ĐLĐK. Nếu vào Ngày CGQSH ban đầu mà Bên Bán không hoàn thiện/không ký hồ sơ và thực hiện mọi thủ tục chuyển nhượng Trái Phiếu tại ĐLĐK thì Các Bên thống nhất rằng việc chuyển giao quyền sở hữu Trái phiếu sẽ được tự động gia hạn thêm một thời gian tương ứng với Thời hạn CGQSH. Ngày CGQSH Gia hạn 1, Ngày CGQSH Gia hạn 2....Ngày CGQSH Gia hạn “t” (t là số lần tự động gia hạn tuỳ từng trường hợp) được gọi chung là                                                 Trong trường hợp thời hạn còn lại của Trái phiếu nhỏ hơn Thời hạn CGQSH, Ngày CGQSH Gia hạn “t” sẽ được xác định bằn với Ngày CGQSH bắt buộc để thanh toán tiền gốc Trái phiếu theo quy định tại Điều 4.1b.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="292" width="524" height="90" uuid="5cca6346-6372-4531-9342-d038e026e138"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Trường hợp TCPH có thông báo chốt danh sách Người sở hữu Trái phiếu để mua lại Trái phiếu trước ngày đáo hạn hoặc để thanh toán tiền gốc Trái phiếu thì tại đây Bên Mua và Bên Bán đồng ý, ngay khi Bên Mua nhận được thông báo của TCPH thì Bên Mua sẽ có quyền yêu cầu ĐLĐK thực hiện việc chuyển nhượng Trái phiếu từ Bên Bán sang Bên Mua vào                                              , bất kể Trái phiếu đó đã đến ngày CGQSH thoả thuận hay chưa. Vào ngày CGQSH Bắt buộc, vì bất cứ lý do nào mà Bên bán không hoàn thiện/không ký hồ sơ và thực hiện mọi thủ tục chuyển nhượng  Trái phiếu tại ĐLĐK, thì Bên Bán tại đây thừa nhận và đồng ý rằng, bằng văn bản này, Bên Mua sẽ có quyền yêu cầu ĐLĐK thực hiện việc chuyển nhượng quyền sở hữu trái phiếu từ Bên Bán sang Bên Mua mà không cần sự có mặt/chấp thuận của Bên Bán vào ngày CGQSH bắt buộc đó. Bên Mua và Bên Bán thống nhất rằng, Bên Mua sẽ sử dụng Hợp đồng này để xuất trình tại ĐLĐK cho mục đích chuyển quyền sở hữu Trái phiếu, mà không cần ký thêm bất kỳ giấy tờ, tài liệu nào.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="379" width="524" height="40" uuid="a949bb2a-cc83-4878-b740-f82b897f2618"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Trường hợp Bên Bán muốn chuyển giao cho Bên Mua quyền sở hữu Trái phiếu trước Ngày CGQSH thoả thuận, bên Bán phải thông báo bằng văn bản cho Bên Mua chậm nhất 03 (ba) Ngày làm việc trước ngày dự kiến thực hiện quyền chuyển giao quyền sở hữu Trái phiếu ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="410" width="524" height="39" uuid="c9c5de14-af20-4cb3-967d-8aaf9c1fe5c6"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Như vậy, Ngày CGQSH thực tế có thể là Ngày CGQSH ban đầu, Ngày CGQSH 1, Ngày CGQSH 2..., Ngày CGQSH  Gia hạn “t”, Ngày CGQSH theo yêu cầu hoặc Ngày CGQSH bắt buộc, tuỳ từng trường hợp. Tuy nhiên trong mọi trường hợp, Ngày CGQSH thực tế sẽ không muộn hơn Ngày CGQSH bắt buộc.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="501" y="389" width="52" height="20" uuid="4c1e8f1d-eb70-4c7e-be03-3127e0a9d226"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(“Ngày ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="400" width="118" height="30" uuid="052b087c-6aff-4196-a931-299072c6d316"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CGQSH Theo Yêu Cầu”).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="325" y="312" width="120" height="30" uuid="301998b2-fbf4-4972-b5d3-feef9316f73c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[“Ngày CGQSH Bắt Buộc”]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="207" y="260" width="142" height="30" uuid="5cae8fa0-0fdf-4c38-a2dd-31a0dd3f9236"/>
+				<textElement>
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[“Ngày CGQSH Thoả thuận”. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="440" width="524" height="28" uuid="29b9de19-794a-4d7a-b6b3-4d769547bc13"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[e)  Bên Mua và Bên Bán đồng ý rằng quyền sở hữu Trái phiếu được xem là chuyển cho Bên Mua ngay khi tên Bên Mua đã được ghi vào Sổ đăng ký Người sở hữu Trái phiếu do ĐLĐK quản lý.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="464" width="546" height="28" uuid="47d3e051-1594-4aee-b580-42330f8d45b3"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[4.2  Bên Bán cam kết không có bất kỳ khiếu nại, khiếu kiện nào đối với Bên Mua và/hoặc ĐLĐK khi Bên Mua/ĐLĐK thực hiện đúng theo các thoả thuận tại Điều 4.1 này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="492" width="546" height="18" forecolor="#000000" uuid="d0e9815d-7934-42a5-bed5-dc25c81c9907"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 5. THỦ TỤC CHUYỂN NHƯỢNG TRÁI PHIẾU VÀ UỶ QUYỀN THỰC HIỆN QUYỀN CỦA CHỦ SỞ HỮU TRÁI PHIẾU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="579" width="524" height="94" uuid="b304ffa3-c05a-4a61-a46d-19239684dd4f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Quyết định mọi vấn đề và trực tiếp thực hiện các thủ tục tại TCPH/ĐLĐK/Đại lý thanh toán/Tổ chức quản lý tài sản bảo đảm Trái phiếu (nếu có) liên quan đến Trái phiếu, bao gồm nhưng không giới hạn: các điều kiện và điều khoản Trái phiếu, các vấn đề liên quan tới lãi suất của Trái phiếu, các vấn đề liên quan tới tài sản đảm bảo của Trái phiếu, việc thay đổi/điều chỉnh các kỳ trả nợ gốc, Lãi trái phiếu, sửa đổi ngày đáo hạn Trái phiếu hoặc bất kỳ ngày thanh toán gốc/Lãi Trái phiếu hoặc giảm hoặc ngừng thanh toán khoản tiền gốc hoặc thay đổi lãi suất phải trả liên quan đến Trái phiếu hoặc thay đổi loại tiền tệ thanh toán Trái Phiếu hoặc những vấn đề liên qua tới việc bổ sung, thay đổi, rút bớt, thay thế tài sản bảo đảm hoặc xử lý tài sản bảo đảm...]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="642" width="524" height="18" uuid="856eb78c-5577-4f7f-b223-510a402238c2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Trực tiếp ký kết các tài liệu, giấy tờ liên quan đến Trái phiếu với tư cách là đại diện cho Bên Bán.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="654" width="524" height="39" uuid="d7ffbe36-761c-4db4-b770-616ed42ca8f0"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Quyết định mọi vấn đề, trực tiếp ký kết mọi giấy tờ /tài liệu và trực tiếp thực hiện mọi thủ tục cần thiết tại Đại Lý Thanh Toán/TCPH để nhận mọi khoản tiền bao gồm nhưng không giới hạn khoản lãi, gốc, khoản tiền phạt, tiền bồi thường (nếu có) liên quan tới Trái phiếu.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="557" width="524" height="26" uuid="e5ee8a8f-bd31-4eaa-a0b4-2ff07d7b4a5b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Tiếp nhận và xử lý các thông tin liên quan đến Trái phiếu được thông báo từ TCPH/Đại lý đăng ký/Đại lý Thanh toán/ Tổ chức quản lý tài sản đảm bảo Trái phiếu (nếu có).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="522" width="546" height="35" uuid="4ea38a85-b603-4eec-b3bc-9c1cc60716e9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.2  Các Bên thống nhất rằng kể từ ngày Hợp đồng này có hiệu lực, Bên Bán uỷ quyền toàn bộ và không huỷ ngang cho Bên Mua thực hiện các công viêc, đại diện cho Bên Bán thực hiện tất cả các quyền của chủ sở hữu Trái phiếu liên quan tới Trái phiếu như quy định tại các điều kiện và điều khoản Trái phiếu, bao gồm nhưng không giới hạn các công việc chi tiết như dưới đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="508" width="546" height="20" uuid="5106995e-f69a-4168-8d24-a9852b6724c6"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.1  Thủ tục chuyển nhượng Trái phiếu được thực hiện phù hợp với quy định của TCPH, quy định của ĐLĐK và quy định của pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="113" width="508" height="18" uuid="439325ce-a8cb-411f-bb70-a6cfa27b3a7f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Trong trường hợp Bên Bán đã nhận Lãi trái phiếu từ TCPH, Bên Bán có nghĩa vụ hoàn trả Lãi trái phiếu này cho Bên Mua; hoặc/và]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="131" width="508" height="37" uuid="01cce402-58b2-437e-98e2-3d00a267246f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Trong trường hợp đến kỳ nhận Lãi Trái phiếu trước Ngày CGQSH, Bên Bán tại đây đồng ý để Bên Mua làm việc với TCPH/Đại lý thanh toán để chuyển toàn bộ Lãi trái phiếu và các quyền lợi phát sinh  khác (nếu có) cho Bên Mua được nhận với tư cách là người sở hữu khoản Lãi Trái phiếu.]]></text>
+			</staticText>
+		</band>
+		<band height="719">
+			<staticText>
+				<reportElement x="100" y="414" width="130" height="34" forecolor="#000000" uuid="34f2c53b-2966-4a54-bec1-08892ac8764d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐẠI DIỆN BÊN BÁN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="415" width="110" height="34" forecolor="#000000" uuid="e2fa0e91-7335-49ba-a1c9-8e2328c6eb40"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐẠI DIỆN BÊN MUA
+TỔNG GIÁM ĐỐC
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="304" width="546" height="30" uuid="a31a5603-5ff8-4170-b00d-e5c98e82dacf"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.5  Hợp đồng sẽ ràng buộc và có hiệu lực đối với lợi ích của Các Bên theo Hợp đồng và những người thừa kế, những người đại diện pháp lý hay đại diện theo uỷ quyền, những người kế thừa  hay nhận chuyển giao.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="327" width="544" height="30" uuid="291814aa-7cea-48a4-923d-ac8757a2be03"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.6  Trừ các quy định cụ thể tại Hợp đồng, Các Bên không được chuyển nhượng , chỉ định thực hiện quyền lợi và nghĩa cụ phát sinh theo Hợp đồng cho bất kỳ Bên thứ ba nào, trừ trường hợp được sự đồng ý trước bằng văn bản của Bên còn lại.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="350" width="544" height="22" uuid="e07130f1-973c-418c-9c34-e4b0ec66e09d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.7  Luật áp dụng và cơ quan giải quyết tranh chấp.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="364" width="544" height="36" uuid="5b40e7e6-bc9c-487c-a188-b06d2ec73f2f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.8  Hợp Đồng này được lập thành 02 (hai) bản gốc có giá trị như nhau. Mỗi Bên giữ 01 (một) bản gốc làm căn cứ và thực hiện. Bên Mua chịu trách nhiệm thông tin và chuyển bản sao Hợp Đồng này đến Đại Lý Đăng Ký và Đại Ký Quản Lý chuyển nhượng để thực hiện thủ tục chuyển nhượng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="388" width="546" height="19" uuid="70a973b7-e4f0-4794-9f40-3e66907ae349"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.9  Các Bên xác nhận đã đọc và hiểu rõ nội dung tại Hợp đồng này và các Điều khoản chung và đồng ý ký tên dưới đây.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="150" width="546" height="24" uuid="9db1e42b-6995-41e9-9093-4ff75ca65a9a"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.1 Hợp Đồng có hiệu lực kể từ khi các Bên ký vào Hợp Đồng này và được chấm dứt khi xảy ra một trong những trường hợp sau:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="226" width="16" height="18" uuid="ab5240c2-1d6d-4ad0-8eb9-88a8899c0f9b"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="226" width="508" height="19" uuid="06815bc5-4dea-45ce-8f1f-e90a640fc5c2"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Khi xảy ra trường hợp bất khả kháng theo quy định tại Các Điều khoản chung.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="165" width="508" height="18" uuid="5c1c1246-17e6-47bf-b0c7-1c2326d9093d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Khi các Bên đã thực hiện xong các quyền và nghĩa vụ của mình theo quy định tại Hợp đồng;]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="193" width="508" height="55" uuid="cd271247-d7b3-4954-8410-5bc66036c95f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Nếu một Bên vi phạm bất kỳ nghĩa vụ nào của mình tại Hợp đồng và không sửa chữa vi phạm trong vòng 30 Ngày làm việc kể từ ngày có yêu câì tại thông báo bằng văn bản của Bên bị vi phạm, Bên bị vi phạm có quyền đơn phương chấm dứt Hợp đồng này bằng thông báo bằng văn bản gửi cho Bên vi phạm chậm nhất 07 (bảy) ngày làm việc trước ngày dự kiến chấm dứt.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="179" width="508" height="19" uuid="071a27bb-6fa3-4927-8e8c-67b3b7e1c944"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Theo thoả thuận bằng văn bản của Các Bên]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="165" width="11" height="18" uuid="9aa5032d-e3e0-4bea-b9c3-2d290c37d141"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="192" width="16" height="18" uuid="5081fe92-9a64-4941-8d97-42da0567c862"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="178" width="16" height="18" uuid="282d81ef-0722-48a1-b927-564d44cfb433"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="243" width="546" height="22" uuid="c6064ff5-a007-4601-9b8e-8f01595aeeaf"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.2  Các Bên cam kết thực hiện đúng nghĩa vụ của mình theo Hợp Đồng này và quy định của Pháp Luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="258" width="546" height="30" uuid="a8873f05-bc92-4a72-8be7-7b5f2e245f76"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.3  Các điều khoản và điều kiện chung khác điều chỉnh Hợp Đồng này được quy định tại Các Điều Khoản Chung. Các Điều Khoản Chung là một bộ phận đính kèm và không tách rời của Hợp Đồng này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="31" width="524" height="58" uuid="be5b5cf0-5902-4e38-b2d0-2d52f8a8a00f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[e)  Trong trường hợp Bên Mua chỉ định cho bên thứ ba nhanạ chuyển giao quyền sở hữu Trái phiếu vào Ngày CGQSH thực tế theo quy định tại Điều 4.1 Hợp đồng này, thì Bên Bán tại đây uỷ quyền không huỷ ngang cho Bên Mua thay mặt Bên Bán ký giấy đề nghị chuyển nhượng Trái phiếu hoặc/và bất kỳ tài liệu/giấy tờ nào khác theo yêu cầu của ĐLĐK cho mục đích chuyển giao quyền sở hữu Trái phiếu cho bên thứ ba tại ĐLĐK.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="72" width="546" height="30" uuid="fcc479b5-e5c3-4fff-8f7a-7b4cd13432ec"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.3  Bên bán tại đây cam kết và bảo đảm rằng Bên Bán sẽ không tự mình thực hiện hoặc uỷ quyền cho bên thứ ba thực hiện bất kỳ công việc nào mà Bên Bán đã uỷ quyền toàn bộ và không huỷ ngang cho bên Mua tại Điều 5.2 này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="97" width="546" height="59" uuid="9e72d6a4-f01d-42a8-bf10-bdf8a065c5df"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[5.4  Các Bên đồng ý rằng, ngay khi ký Hợp đồng này, Trái phiếu sẽ được phong toả tại ĐLĐK và Trái phiếu này được giải toả khi Bên Mua đã chuyển Tổng Giá Mua thực nhận cho Bên Bán để làm thủ tục chuyển quyền sở hữu Trái phiếu cho Bên Mua. Các Bên thống nhất sẽ sử dụng Hợp đồng này để xuất trình tại ĐLĐK cho mục đích phong toả, giải toả Trái phiếu mua bán, mà không cần ký thêm bất kỳ giấy tờ, tài liệu nào.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="282" width="546" height="30" uuid="2426d746-cd11-4f04-8a52-c8df536a0ed4"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[6.4  Mọi sửa đổi, bổ sung nội dung của Hợp đồng phải được các Bên thoả thuận bằng văn bản, các văn bản này là một bộ phận không tách rời của Hợp đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="134" width="546" height="19" forecolor="#000000" uuid="eadd746f-a6e5-4b04-b18f-c70a63906019"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 6. HIỆU LỰC CỦA HỢP ĐỒNG]]></text>
+			</staticText>
+		</band>
+		<band height="727">
+			<staticText>
+				<reportElement x="8" y="165" width="232" height="32" uuid="2366c583-eba1-4027-90c5-e7a95e896920"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Thời hạn CGQSH: là khoảng thời gian tính từ ngày ký Hợp Đồng đến Ngày CGQSH Ban Đầu.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="124" width="232" height="19" forecolor="#000000" uuid="9189d43b-efb5-4466-aefc-05532b5c04b0"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[II.  Định nghĩa ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="491" width="232" height="49" uuid="38de7e22-7d4f-4711-b68b-6baee69955fa"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Đối với Bên Bán là Tổ chức trong nước: Tổng Giá Mua nêu tại Hợp Đồng không bao gồm các khoản thuế liên quan tới việc chuyển nhượng Trái Phiếu và đã bao gồm Phí Chuyển Nhượng. Khoản thuế phát sinh từ việc chuyển nhượng Trái Phiếu thuộc Bên nào sẽ do Bên đó chịu và nộp cho cơ quan thuế theo quy định của pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="FixRelativeToBottom" x="8" y="30" width="546" height="19" forecolor="#000000" uuid="88939f81-ca7f-47bc-9afc-8629d903fea1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[CÁC ĐIỀU KHOẢN CHUNG CỦA GIAO DỊCH MUA BÁN TRÁI PHIẾU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="49" width="222" height="19" forecolor="#000000" uuid="c33d3116-601a-4f4f-8c06-35f9565e558c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[I.  Giới thiệu ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="58" width="232" height="40" uuid="72369fb3-64c5-443a-a8d9-fe84dbf42ca9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Các Điều khoản Chung Của Giao Dịch Mua Ban Trái Phiếu (“Các Điều khoản chung”) này quy định điều khoản, điều kiện chung điều chỉnh Hợp đồng mua bán trái phiếu ký kết giữa Công ty CP Chứng khoán Everest (EVS) (Bên Mua) và Khách hàng (Bên Bán) (“Hợp Đồng”).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="91" width="232" height="36" uuid="d4007fdd-0d4e-4ee8-ac32-012ba1cf1b56"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Trừ khi được định nghĩa cụ thể khác đi trong Hợp Đồng, các định nghĩa, thuật ngữ tại đây cũng sẽ được giải thích và áp dụng cho Hợp Đồng. Các thuật ngữ không được định nghĩa tại đây sẽ được hiểu và giải thích theo quy định tại Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="397" width="232" height="36" uuid="dabd3885-bca8-40dc-8d5b-60c9d3160e0a"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[l)  Ngày Làm Việc : là bất kỳ ngày nào trừ ngày Thứ Bảy, Chủ Nhật, ngày nghỉ lễ, tết và bất kỳ ngày nào mà các ngân hàng tại Việt Nam không làm việc theo quy định của cơ quan có thẩm quyền.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="434" width="232" height="66" uuid="9d590be0-b16d-4b2d-b100-dff7c9840f4f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Đối với Bên Bán là Cá nhân hoặc Tổ chức nước ngoài : Tổng Giá Mua nêu tại Hợp Đồng đã bao gồm các khoản thuế, phí và lệ phí liên quan đến việc chuyển nhượng Trái Phiếu theo quy định của Hợp Đồng. Bên Mua sẽ thay mặt Bên Bán nộp Khoản Thuế Chuyển Nhượng tại cơ quan thuế theo quy định của pháp luật. Bên Bán tại đây ủy quyền không hủy ngang cho Bên Mua được khấu trừ Khoản Thuế Chuyển Nhượng mà Bên Bán phải nộp từ Tổng Giá Mua trước khi chuyển tiền thanh toán tiền mua Trái Phiếu cho Bên Bán.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="424" width="232" height="19" forecolor="#000000" uuid="90e3ec7b-55e1-4df5-b239-a32e716fb5cb"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[III.  Quy định về việc thanh toán thuế và phí chuyển nhượng ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="532" width="232" height="28" uuid="fce7f79e-ffd1-4981-a1ef-f8de4b5b4801"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Phí Chuyển Nhượng (nếu có) sẽ được Bên Mua khấu trừ từ Tổng Giá Mua trước khi thanh toán tiền mua Trái Phiếu cho Bên Bán và nộp cho ĐLĐK theo quy định.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="566" width="232" height="50" uuid="67a9b2a7-b2dd-4fa2-9ec7-780a5c8ca5a8"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Bên Bán là chủ sở hữu hợp pháp số lượng Trái Phiếu quy định tại Phần A Điều 2 Hợp Đồng. Trái Phiếu chuyển nhượng quy định tại Phần A Điều 2 Hợp Đồng là Trái Phiếu được tự do chuyển nhượng. Bên Bán chưa tiến hành chuyển nhượng, cầm cố, thế chấp, tặng cho số Trái Phiếu này cho bất kỳ tổ chức, cá nhân nào khác. Tại thời điểm ký kết Hợp Đồng, Bên Bán khôn có bất kỳ tranh chấp với Bên thứ ba nào liên quan đến số Trái Phiếu trên.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="183" width="232" height="40" uuid="2ba01868-fbc2-4b61-8689-48b4b4b00301"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Ngày CGQSH Bắt Buộc : là ngày trước 01 Ngày Làm Việc của ngày chốt danh sách Người Sở Hữu Trái Phiếu để mua lại Trái Phiếu trước ngày đáo hạn hoặc để thanh toán tiền gốc Trái Phiếu.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="208" width="232" height="14" uuid="87e82e58-c551-4d42-b00d-7f6fcf12245c"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Đại Lý Thanh Toán: là viết tắt của Đại lý thanh toán gốc, lãi Trái Phiếu – EVS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="219" width="232" height="34" uuid="a369930c-7958-4229-b110-bd7c7756323f"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[e)  ĐLĐK : là viết tắt của Đại Lý Đăng Ký và Đại Lý Quản Lý Chuyển Nhượng - EVS hoặc Đơn vị được EVS ủy quyền.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="257" width="232" height="42" uuid="c88c9c91-5f66-431f-9d95-8cae02c44b99"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[g)  Khoản Thuế Chuyển Nhượng : là số tiền thuế phát sinh từ giao dịch chuyển nhượng Trái Phiếu mà Bên Bán phải trả theo quy định của pháp luật tại từng thời điểm.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="238" width="232" height="22" uuid="dce2e05e-245f-4e4f-9dc3-8a48d9bde0cd"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[f)  Tổng Giá Mua : là số tiền mà Bên Mua phải thanh toán cho Bên Bán để được nhận chuyển nhượng toàn bộ số Trái Phiếu theo quy định của Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="556" width="232" height="19" forecolor="#000000" uuid="65a102aa-576e-4286-88b1-a32641f11c39"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IV.  Cam kết, quyền và nghĩa vụ của Bên Bán:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="380" width="232" height="28" uuid="90f65695-c3a1-4686-94cd-b661c02ec80e"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[k)  Ngày Thanh Toán: là ngày mà Bên Mua thực hiện việc thanh toán một phần hoặc toàn bộ Tổng Giá Mua Thực Nhận cho Bên Bán.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="314" width="232" height="50" uuid="3f34da6f-825a-47cb-acd6-8560ec03d9d0"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[i)  Tổng Giá Mua Thực Nhận : là khoản tiền cuối cùng mà Bên Bán sẽ được nhận từ việc chuyển nhượng số Trái Phiếu theo Hợp Đồng, sau khi trừ đi các khoản thuế, phí, lệ phí có liên quan đến việc chuyển nhượng Trái Phiếu, được xác định theo công thức:
+Tổng Giá Mua Thực Nhận = Tổng Giá Mua – Khoản Thuế Chuyển Nhượng – Phí Chuyển Nhượng.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="364" width="231" height="29" uuid="33183c01-ae78-4d7d-93be-5c7292187d20"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[j)  Lãi Trái Phiếu : là các khoản lãi tích lũy của Trái Phiếu, các khoản lợi tức khác liên quan tới Trái Phiếu.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="49" width="246" height="30" uuid="0d5126f5-4b06-4345-999d-303e57f1965a"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Thực hiện và hoàn tất các thủ tục pháp lý cần thiết để chuyển quyền sở hữu Trái Phiếu cho Bên Mua và để Bên Mua đứng tên là chủ sở hữu Trái Phiếu đúng thời hạn quy định tại Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="79" width="246" height="30" uuid="2888777a-f3b5-43c4-a350-bcdfd636e019"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Được yêu cầu Bên Mua thanh toán toàn bộ Tổng Giá Mua Thực Nhận theo đúng quy định tại Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="99" width="246" height="30" uuid="12f6b9ee-e969-478c-acb8-97a087813eed"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[e)  Các cam kết, nghĩa vụ và quyền khác của Bên Bán quy định tại Hợp Đồng và theo quy định pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="120" width="246" height="25" forecolor="#000000" uuid="996bc21b-2564-4912-860b-41cb0f4f0638"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[V.  Cam kết, quyền và nghĩa vụ của Bên Mua:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="132" width="246" height="27" uuid="2c5630df-7fb0-4e9d-b977-68e6e7439898"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Bên Mua có đủ tư cách pháp lý để nhận chuyển nhượng số Trái Phiếu trên theo quy định của pháp luật Việt Nam.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="220" width="246" height="22" uuid="d346c9a8-b9e5-4a89-842b-a2fbb2e3dfd9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[f)  Các cam kết, nghĩa vụ và quyền khác của Bên Mua quy định tại Hợp Đồng và quy định pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="169" width="246" height="22" uuid="7a33a638-80ae-4987-9357-5f7e28ed3c7d"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Là Bên chịu trách nhiệm trực tiếp thanh toán đầy đủ, đúng hạn Tổng Giá Mua Thực Nhận cho Bên Bán theo quy định của Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="201" width="246" height="18" uuid="47508ba6-2c0a-4a0d-9e1b-c07104c0fe24"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[e)  Yêu cầu Bên Bán xuất trình các giấy tờ cần thiết cho việc thực hiện giao dịch (Bao gồm cả chuyển nhượng Trái Phiếu đúng thời hạn quy định tại Hợp Đồng).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="151" width="246" height="18" uuid="1e0f4733-9d9b-4953-b388-53c14ec2bdbb"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Cung cấp cho Bên Bán các tài liệu cần thiết theo quy định cho việc thực hiện giao dịch.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="190" width="246" height="20" uuid="863777fc-27ea-4997-b75a-683ada5c52ad"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Thực hiện các công việc được Bên Bán ủy quyền tại Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="240" width="246" height="19" forecolor="#000000" uuid="c31eb76b-64a8-478b-badc-4135dad10a20"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VI.  Bất khả kháng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="414" width="246" height="36" uuid="8a300aa5-e79d-4702-8ef1-54263226dde9"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[d)  Tuy nhiên, trong trường hợp thời gian tạm ngơng vì sự kiện bất khả kháng kéo dài quá 60 ngày, một trong các Bên có quyền đơn phương chấm dứt Hợp đồng bằng một thông báo gửi đến cho Bên còn lại ít nhất 07 (bảy) ngày làm việc trước ngày dự kiến chấm dứt.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="448" width="246" height="19" forecolor="#000000" uuid="d575c72b-80df-49e5-8ee1-69541015df71"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VII.  Bảo mật thông tin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="513" width="246" height="19" forecolor="#000000" uuid="7e458604-625d-4b6c-8fd5-fecedf5cc907"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VIII.  Thông báo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="525" width="246" height="74" uuid="3ff7cd9a-ad94-4b43-89eb-a7048aae7614"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Trong quá trình thực hiện Hợp đồng, Bên Mua sẽ thực hiện gửi các thông báo (nếu có) đến Bên Bán bằng một trong các hình thức sau: (i) gọi điện hoặc gửi tin nhắn (SMS) đến số điện thoại (ii) gửi email (iii) fax (iv) địa chỉ mà Bên Bán nếu tại phần đầu Hợp đồng. Một thông báo (nếu có) được xem là đã gửi thành công nếu (i) đã có người ký nhận đối với thư chuyển phát nhanh; hoặc (ii) thời điểm đã báo cáo đã fax thành công đối với bản fax; hoặc (iii) gửi thành công tin nhắn (SMS), hoặc (iv) thời điểm lưu bản ghi âm đối với điện thoại, hoặc (v) thời điểm gửi email thành công đối với email.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="592" width="246" height="46" uuid="bd86e11b-bc3f-4b50-b042-d2aabff4be62"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Nếu Bên Bán thay đổi thông tin nhận thông báo thì Bên Bán phải cung cấp ngay lập tức cho Bên Mua. Nếu Bên Bán không cung cấp kịp thời thông tin thay đổi để nhận được thông báo dẫn tới thông báo bị thất lạc thì lỗi hoàn toàn thuộc về Bên Bán. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="460" width="246" height="52" uuid="12a3eec8-2e49-4c09-acb7-1a808fdaa1e6"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Các Bên phải giữ bí mật nội dung Hợp Đồng và chỉ được tiết lộ nội dung của Hợp Đồng theo một trong các trường hợp sau: (i) Khi được (các) Bên còn lại chấp chấp thuận trước bằng văn bản; hoặc (ii) Theo yêu cầu của Pháp Luật, cơ quan nhà nước có thẩm quyền; hoặc (iii) Cho mục đích kế toán, kiểm toán, hoặc thủ tục chuyển quyền sở hữu Trái Phiếu; hoặc (iv) Cho mục đích tuân thủ nội bộ và vận hành khác của các Bên. Quy định này vẫn có hiệu lực khi Hợp Đồng chấm dứt.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="132" width="230" height="34" uuid="bc8c653b-682e-4ff9-976a-79f223c7d373"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Ngày CGQSH: là viết tắt của Ngày Thực Hiện Việc Chuyển Giao Quyền Sở Hữu - là ngày mà Bên Bán thực hiện các thủ tục để chuyển giao quyền sở hữu đối với toàn bộ số Trái Phiếu sang cho Bên Mua tại ĐLĐK theo các quy định tại Hợp Đồng.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="281" width="232" height="36" uuid="16b34b52-106f-4d79-ad3f-dd6c8084bea3"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[h)  Phí Chuyển Nhượng : là số tiền do ĐLĐK thu để thực hiện các thủ tục chuyển nhượng theo yêu cầu của người sở hữu Trái Phiếu. Mức Phí Chuyển Nhượng và việc thu Phí Chuyển Nhượng được thực hiện theo quy định của ĐLĐK tại từng thời điểm.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="616" width="232" height="50" uuid="0157b587-b8df-4b29-bc32-3458b7e7c5fb"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Vào Ngày ký Hợp Đồng, Bên Bán có trách nhiệm cung cấp cho Bên Mua các văn bản, tài liệu chứng minh quyền sở hữu hợp pháp Trái Phiếu bao gồm nhưng không giới hạn Hợp Đồng mua bán Trái Phiếu mà Bên Bán đã ký với tư cách Bên Mua, Giấy chứng nhận quyền sở hữu Trái Phiếu/Thông báo số dư Trái Phiếu và các giấy tờ liên quan khác (nếu có).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="363" width="246" height="50" uuid="51afe851-0982-4527-a04c-298cc5a54664"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[c)  Trường hợp Hợp đồng phải tạm ngưng thực hiện vì lý do sự kiện bất khả kháng, Bên bị ảnh hưởng bởi sự kiện bất khả kháng được miễn trách nhiệm về việc vi phạm nghĩa vụ phải thực hiện đối với Bên kia theo Hợp đồng trong thời gian bị tạm ngưng vì sự kiện bất khả kháng. Theo đó, Ngày CGQSH và/hoặc Ngày thanh toán sẽ được gia hạn tương ứng với thơì gian tạm ngưng vì sự kiện bất khả kháng, trừ khi Các Bên có thoả thuận khác.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="251" width="246" height="84" uuid="6f011d7d-0b57-47cf-8ce5-87cd4c90a146"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[a)  Bất khả kháng là các sự việc xảy ra một cách khách quan không thể lường trước được, không thể khác phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép và nó ngăn cản, ảnh hưởng trực tiếp làm cho một hoặc các Bên  không thể thực hiện được một phần hoặc toàn bộ nghĩa vụ quy định trong Hợp đồng. Bất khả kháng bao gồm nhưng không giới hạn bởi bạo loạn, xâm lược, chiến tranh, đe doạ hoặc chuẩn bị chiến tranh, hoả hoạn, cháy nổ, bão lụt, động đất hoặc thiên tai, khủng hoảng tài chính, biến động thị trường vốn, các quyết định/chính sách hoặc hành vi của cơ quan có thẩm quyền, mà có ảnh hưởng bất lợi đáng kể đến hoạt động/triển vọng kinh doanh, tình hình (về tài chính hoặc về các vấn đề khác) của một Bên, hoặc gây ảnh hưởng bất lợi đáng kể cho thị trường tài chính – tiền tệ trong nước.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="336" width="246" height="41" uuid="5e45f4f7-f902-4d0e-88da-a23ddbe58712"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Times New Roman" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[b)  Bên bị ảnh hưởng bởi sự kiện bất khả kháng phải gửi thông báo cho Bên kia về việc tạm ngưng thực hiện nghĩa vụ trong vòng 03 (ba) ngày làm việc kể từ ngày phải ngừng thực hiện nghĩa vụ vì ảnh hưởng bởi sự kiện bất khả kháng.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="50">
+			<staticText>
+				<reportElement x="7" y="21" width="172" height="20" forecolor="#808080" uuid="f589c3a7-e258-43f2-a056-35d10dcc2cba"/>
+				<box>
+					<pen lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CÔNG TY CP CHỨNG KHOÁN EVEREST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="20" width="294" height="28" forecolor="#808080" uuid="e52ddb59-8574-46b7-9b90-2efad1f2b55e"/>
+				<box>
+					<pen lineStyle="Double" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tầng 2 – Tòa nhà VNT Tower, Số 19 Nguyễn Trãi, Thanh Xuân, Hà Nội 
+Điện thoại: (024) 37 726699 | Email:  phongdvkh@eves.com.vn ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="400" y="0" width="152" height="30" forecolor="#808080" uuid="805503ee-49f0-46c6-9527-53b88cfbd07b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
